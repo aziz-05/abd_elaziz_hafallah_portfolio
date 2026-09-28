@@ -48,7 +48,7 @@ export default function Hero() {
           >
             <Text size={['heading3', 'heading1', 'hero']}>
               I am Abd Elaziz a Network Engineer & Web Developer
-              <span style={{ color: '#88888D' }}> based</span> in Algeria
+              <span style={{ color: '#88888D' }}> based</span> in Austria, Innsbruck
               <span style={{ color: '#57EFB4' }}>.</span>
             </Text>
             <Text size={['body2', 'body', 'body']}>
