@@ -10,7 +10,7 @@ hi, I'm [Abd Elaziz Hafallah](https://abd-elaziz-hafallah.vercel.app/), a Softwa
 
 I am currently pursuing an MSc in Software Engineering at the University of Innsbruck, and I enjoy building systems that are robust, measurable, and useful for real users.
   
-- 💼 open to product and engineering opportunities? reach out at [email](mailto:abdelazizhafallah.business@gmail.com)
+- 💼 open to product and engineering opportunities? reach out at [email](mailto:abdelaziz.hafallah.s@gmail.com)
 - 💬 I’m happy to talk about backend engineering, distributed systems, and AI product development;
 
 **languages and tools:**  
