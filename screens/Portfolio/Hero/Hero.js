@@ -23,11 +23,12 @@ export default function Hero() {
           alignItems={['center']}
           justifyContent={['space-between']}
         >
-          <Button variant='primary'>Hire Me</Button>
+          <Button href='/ABD ELAZIZ HAFALLAH Resume.pdf' variant='primary' download>
+            Contact Me
+          </Button>
           <Wrapper maxWidth={[600]} mt={[24, 0, 0]}>
             <Text size={['body2', 'body', 'body']}>
-              I am Portier, experienced Digital Product Designer based on
-              Florida. I am here to help you build your amazing product.
+              I build backend-heavy systems, APIs, and reliable product experiences with a focus on engineering quality, observability, and AI-assisted workflows.
             </Text>
           </Wrapper>
         </Wrapper>

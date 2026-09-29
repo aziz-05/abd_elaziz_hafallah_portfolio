@@ -6,12 +6,12 @@
 
 <br />
 
-hi, I'm [Abd Elaziz Hafallah](https://abd-elaziz-hafallah.vercel.app/), a passionate self-taught Network engineer and web developer from Algeria. My passion for both netorking and web develpment lies with dreaming up ideas and making them come true with elegant interfaces. I take great care in the experience, architecture, and code quality of the things I build.
+hi, I'm [Abd Elaziz Hafallah](https://abd-elaziz-hafallah.vercel.app/), a Software engineer with 2+ years building production backend and full-stack systems for Algeria’s largest classifieds marketplace. I work across microservices, APIs, observability, and reliable AI-enabled product workflows.
 
-I am also an open-source enthusiast and maintainer. i learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.
+I am currently pursuing an MSc in Software Engineering at the University of Innsbruck, and I enjoy building systems that are robust, measurable, and useful for real users.
   
-- 💼 any freelance work? do reach, [email](mailto:abdelazizhafallah.business@gmail.com) :)
-- 💬 ask me about anything, i am happy to help;
+- 💼 open to product and engineering opportunities? reach out at [email](mailto:abdelazizhafallah.business@gmail.com)
+- 💬 I’m happy to talk about backend engineering, distributed systems, and AI product development;
 
 **languages and tools:**  
 
