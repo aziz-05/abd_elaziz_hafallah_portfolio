@@ -47,12 +47,12 @@ export default function Hero() {
             maxWidth={[600]}
           >
             <Text size={['heading3', 'heading1', 'hero']}>
-              I am Abd Elaziz a Network Engineer & Web Developer
-              <span style={{ color: '#88888D' }}> based</span> in Austria, Innsbruck
+              I am Aziz, a Software engineer
+              <span style={{ color: '#88888D' }}> building</span> resilient backend and full-stack systems
               <span style={{ color: '#57EFB4' }}>.</span>
             </Text>
             <Text size={['body2', 'body', 'body']}>
-              Become who you are by learning who you are.
+              MSc Software Engineering student at the University of Innsbruck, working across backend systems, APIs, observability, and agentic AI with human-in-the-loop controls.
             </Text>
           </Wrapper>
           <Wrapper display={['grid']} gridGap={[2]} mt={[48, 0, 0]} zIndex={[10]}>
