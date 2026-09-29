@@ -145,3 +145,42 @@ export const projects = [
 
 export const caseStudies = projects.filter((p) => p.caseStudy);
 export const getProject = (slug) => projects.find((p) => p.slug === slug);
+
+// Earlier front-end projects that are still live.
+export const liveProjects = [
+  {
+    title: 'Portfolio v1',
+    image: '/images/portfolio.jpg',
+    tech: ['React', 'Next.js', 'Styled Components'],
+    repo: 'https://github.com/aziz-05/abd_elaziz-_hafallah',
+    live: 'https://abd-elaziz-hafallah-oqnx.vercel.app/',
+  },
+  {
+    title: 'React Shop',
+    image: '/images/react-store.jpg',
+    tech: ['React', 'Redux', 'Styled Components', 'GraphQL'],
+    repo: 'https://github.com/aziz-05/react-clothing-main',
+    live: 'https://abd-elaziz-hafallah.netlify.app/',
+  },
+  {
+    title: 'Amazon Clone',
+    image: '/images/amazon-clone.jpg',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    repo: 'https://github.com/aziz-05/javascript-amazon-project-main',
+    live: 'https://abdelaziz-hafallah-amazon-clonee.netlify.app',
+  },
+  {
+    title: 'WatchVid',
+    image: '/images/watchvid.jpg',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    repo: 'https://github.com/aziz-05/watchvid',
+    live: 'https://abdelaziz-hafalah-watchvidio.netlify.app/',
+  },
+  {
+    title: 'Spotify Clone',
+    image: '/images/sptify-clone.jpg',
+    tech: ['React', 'Axios', 'JavaScript', 'HTML', 'CSS'],
+    repo: 'https://github.com/aziz-05/Sportify-main',
+    live: 'https://abdelaziz-hafallah-spotify-clone.netlify.app',
+  },
+];

@@ -2,12 +2,13 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import Icon from '../../components/Icon';
 import Layout from '../../components/Layout';
+import LiveProjectCard from '../../components/LiveProjectCard';
 import PageHero from '../../components/PageHero';
 import ProjectShowcase from '../../components/ProjectShowcase';
 import Reveal from '../../components/Reveal';
 import { Card, Container, Eyebrow, Gradient, H2, Section, SectionHead, Serif, Tag, Tags } from '../../components/ui';
 import { profile } from '../../content/profile';
-import { caseStudies, projects } from '../../content/projects';
+import { caseStudies, liveProjects, projects } from '../../content/projects';
 import Cta from '../../sections/Cta';
 
 const Stack = styled.div`
@@ -22,6 +23,25 @@ const Grid = styled.div`
 
   @media (max-width: 820px) {
     grid-template-columns: 1fr;
+  }
+`;
+
+const LiveGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+
+  > * { grid-column: span 2; }
+  > :nth-child(-n + 2) { grid-column: span 3; }
+
+  @media (max-width: 960px) {
+    grid-template-columns: repeat(2, 1fr);
+    > *, > :nth-child(-n + 2) { grid-column: span 1; }
+    > :last-child { grid-column: 1 / -1; }
+  }
+  @media (max-width: 620px) {
+    grid-template-columns: 1fr;
+    > :last-child { grid-column: auto; }
   }
 `;
 
@@ -197,6 +217,30 @@ export default function Projects() {
               </GithubCard>
             </Reveal>
           </Grid>
+        </Container>
+      </Section>
+
+      <Section>
+        <Container>
+          <Reveal>
+            <SectionHead>
+              <Eyebrow>Live projects</Eyebrow>
+              <H2>
+                Where it <Serif>started</Serif>: <Gradient>still live.</Gradient>
+              </H2>
+              <p style={{ color: 'var(--muted)', fontSize: 18, maxWidth: 640 }}>
+                Front-end projects from my early days as a developer. Each one is deployed, so click through
+                and try it.
+              </p>
+            </SectionHead>
+          </Reveal>
+          <LiveGrid>
+            {liveProjects.map((p, i) => (
+              <Reveal key={p.title} delay={(i % 3) * 80}>
+                <LiveProjectCard project={p} />
+              </Reveal>
+            ))}
+          </LiveGrid>
         </Container>
       </Section>
 
