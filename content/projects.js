@@ -153,7 +153,7 @@ export const liveProjects = [
     image: "/images/portfolio.jpg",
     tech: ["React", "Next.js", "Styled Components"],
     repo: "https://github.com/aziz-05/abd_elaziz-_hafallah",
-    live: "https://abd-elaziz-hafallah.vercel.app/",
+    live: "https://azizhafallah.vercel.app/",
   },
   {
     title: "React Shop",
